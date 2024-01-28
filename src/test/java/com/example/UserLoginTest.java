@@ -15,7 +15,7 @@ public class UserLoginTest {
     LoginUserData loginUserData;
 
     @Test
-    @DisplayName("")
+    @DisplayName("User login")
     public void loginUser() {
 
     apiMethods = new ApiMethods();
