@@ -19,7 +19,7 @@ public class DeleteUserTest {
     public void deleteUser() {
 
         apiMethods = new ApiMethods();
-        creatingUserData = CreatingUserData.getRandom();
+        creatingUserData = CreatingUserData.getData();
 
         ValidatableResponse createUser = apiMethods.createUser(creatingUserData);
 

@@ -20,7 +20,7 @@ public class UserLoginTest {
 
     apiMethods = new ApiMethods();
 
-    loginUserData = LoginUserData.getRandom();
+    loginUserData = LoginUserData.getData();
 
     ValidatableResponse login = apiMethods.loginUser(loginUserData);
 

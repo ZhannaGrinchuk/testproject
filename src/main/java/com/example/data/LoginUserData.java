@@ -17,7 +17,7 @@ public class LoginUserData {
         this.password = password;
     }
 
-    public static LoginUserData getRandom() {
+    public static LoginUserData getData() {
         final String email = "eve.holt@reqres.in";
         final String password = "cityslicka";
         return new LoginUserData(email, password);

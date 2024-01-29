@@ -26,7 +26,7 @@ public class CreateUserTest {
     @DisplayName("Creating of user")
     public void createUser() {
 
-        creatingUserData = CreatingUserData.getRandom();
+        creatingUserData = CreatingUserData.getData();
 
         ValidatableResponse createUser = apiMethods.createUser(creatingUserData);
 

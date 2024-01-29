@@ -19,7 +19,7 @@ public class CreatingUserData {
         this.job = job;
     }
 
-    public static CreatingUserData getRandom() {
+    public static CreatingUserData getData() {
         final String name = "morpheus";
         final String job = "leader";
         return new CreatingUserData(name, job);
